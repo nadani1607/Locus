@@ -1,0 +1,19 @@
+.testimonial {
+  padding-top: 250px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+  }
+
+  &__row {
+    margin-top: 119ps;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

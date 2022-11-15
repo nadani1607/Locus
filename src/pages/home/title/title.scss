@@ -1,0 +1,52 @@
+.title {
+  &__wrapper {
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+  }
+  &__box {
+    max-width: 45%;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    color: #1C2323;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #404242;
+    margin-top: 50px;
+  }
+
+  &__btn {
+    padding: 20px 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    border: none;
+    margin-top: 50px;
+  }
+
+  &__imgMain {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__imgBack {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,64 @@
+.contact {
+  padding-top: 240px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #1C2323;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+    max-width: 398px;
+  }
+
+  &__field {
+    padding: 55px;
+    border: 1px solid #486958;
+  }
+
+  &__input {
+    width: 1000px;
+    border: none;
+
+  }
+
+  &__line {
+    width: 1000px;
+    border: 1px solid #000000
+  }
+  
+  &__btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border: none;
+    padding: 21px 73px;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+
+  }
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+  padding-top: 57px;
+}

@@ -1,0 +1,30 @@
+.mission {
+  padding-top: 150px;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__box {
+    margin-left: 142px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1C2323;
+    max-width: 487px;
+  }
+
+  &__desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #486958;
+    max-width: 708px;
+    margin-top: 50px;
+  }
+}
